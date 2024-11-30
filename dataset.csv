@@ -1,0 +1,162 @@
+Study ,Country ,AI system name/ developer,Study type,Number of participants or images,Who provided the reference standard,DR classification system used,Sensitivity (95% CI) for referable DR,Specificity (95% CI) for referable DR,AUC (95% CI) for referable DR,Referable DR threshold,Other reported outcomes
+Sosale et al(1),India,Medios Al,Prospective,922 participants,Five retinal specialists,ICDRS,93% (91.3 to 94.7),92.5% (90.8 to 94.2),0.88,Moderate NPDR or worse and/or presence of DME,None
+Bahl and Rao(2),India,Medios Al,Prospective,250 participants,None,NS,NS,NS,NS,NS,197 gradable images
+Natarajan et al(3),India,Medios Al,Prospective,231 participants,Two ophthalmologists,ICDRS,100%,88.4%,NS,Moderate NPDR or worse and/or presence of DME,None
+Jain et al(4),India,Medios Al,Prospective,1378 participants,Two vitreo-retinal surgeons,ICDRS,100% (94.72 to 100),89.55% (87.76 to 91.16),NS,Moderate NPDR or worse (macular signs not specified) ,None
+Ting et al(5),"China, Australia, Singapore, USA",SELENA+,Retrospective,18913 participants,Ophthalmologist and retina specialist,ICDRS,NS,NS,0.963 (0.956 to 0.969),Moderate NPDR or,DLS system was
+Bellemo et al(6),Zambia,SELENA+,Retrospective,1574 participants,Two trained graders,ICDRS,92.25% (90.10 to 94.12),89.04% (87.85 to 90.28),0.973 (0.969 to 0.978)," Moderate NOPDR or worse, DME or an ungradable image",None
+Ting et al(7),"China, Mexico, Singapore",SELENA+,Retrospective,14880 participants (in validation set),Varied between datasets,ICDRS,90.5% (87.3 to 93.0),91.6% (91.0 to 92.2),0.936 (0.925 to 0.943),") Moderate NODR or worse, DME or an ungradable image",DLS performance for detecting possible glaucoma and AMD also reported
+Sayres et al(8),India and USA,Google,Retrospective,1612 participants,Three retinal specialists,ICDRS,91.50%,94.70%,NS,Moderate or worse DR (macular signs not specified),Human graders assisted by AI improved grading accuracy
+Raumviboonsuk et al(9),Thailand,Google,Retrospective,7517 participants,Two retinal specialists,ICDRS,96.8% (89.3 to 99.3),95.6% (98.3 to 98.7),98.7% (97.7 to 99.5)," Publication did not specify RDR, these figures are taken
+for the detection of
+moderate NPDR or
+worse. Referable
+DME data were also
+reported","Algorithm was
+statistically significantly
+better than local Thai
+graders"
+Gulshan et al(10),India,Google,Prospective,3049 participants,"A trained grader and
+a retinal specialist",ICDRS,"Aravind: 88.9% (85.8
+to 91.5)
+Sankara: 92.1% (90.1
+to 93.8)*","Aravind: 92.2% (90.3
+to 93.8)
+Sankara: 95.2%
+(94.2 to 96.1).*","*Aravind: 0.963.
+Sankara: 0.980","Moderate NPDR
+or worse and/or
+presence of DME",None
+Gulshan et al(11),India and USA,Google,Retrospective," Does not specify
+how many images
+from India used to
+train model","Seven and eight
+ophthalmologists
+graded the images
+from the Messidor-2
+and
+EyePACS-1
+datasets,
+respectively",ICDRS,"EyePACS-1: 97.5%
+(95.8 to 98.7)
+Messidor-2: 96.1%
+(92.4 to 93.8)†","EyePACS-1: 93.4%
+(92.8 to 94.0)
+Messidor-2: 93.9%
+(92.4 to 95.3)†","EyePACS-1: 0.991
+(0.988 to 0.993)
+Messidor-2: 0.990
+(0.986 to 0.995)†","Moderate NPDR
+or worse and/or
+presence of DME","Algorithm performance
+tested at different cutoffs (high sensitivity,
+high specificity. etc)"
+Bora et al(12),"Thailand and
+USA",Google,Retrospective,6791 participants,"One ophthalmologist
+graded each image
+from a pool of 11",ICDRS,N/A,N/A,N/A,N/A,"AUC for predicting
+risk of developing
+DR at 2 years from
+normal fundus image
+at baseline 0.70 (0.67
+to 0.74)"
+"Ruamviboosnuk
+et al(13)",Thailand,Google,Prospective,7651 participants,Three retinal specialists,ICDRS,95.1% (91.8 to 97.9),89.3% (85.8 to 92.3),NS,"Moderate NPDR or worse, DME or an ungradable image",Qualitative interviews revealed that nurses positively viewed the system but concerns were expressed about images deemed ungradable by the DLS and the additional time required for image upload
+Al-Turk et al(14),"Kenya, China, Saudi Arabia",DAPHNE,Retrospective,"e Kenya: 24700
+images
+China: 15000
+images","China: NS
+Kenya: Moorfields
+Eye Hospital retinal
+image reading
+center","Kenya: ICDRS
+China: UK NSC
+guidelines","Kenya:
+94.28% (93.1 to 95.22)
+China:
+95.51% (93.1 to 97.5)",Kenya: 92.12% (88.27 to 93.33) China: 91.11% (85.11 to 92.63),NS,UK NSC guideline and ICDRS (moderate or worse DR) classifications used to determine referral threshold including presence of DME,None
+Al-Turk et al(15),"Kenya, China,
+Saudi Arabia",DAPHNE,Retrospective,49726 images,NS,"Kenya: ICDRS
+China: UK NSC
+guidelines","Kenya: 92.03% (91.2
+to 92.9)
+China: 92.9% (91.4
+to 94.2)","Kenya: 93.0% (92.7
+to 93.4)
+China: 94.4% (94.1
+to 97.8)",NS,"Kenya: moderate
+NPDR or worse
+using ICDRS criteria
+and/or presence of
+DME
+China: UK NSC cutoff used (includes
+presence of DME)",Ability of DAPHNE to detect non-DR pathology was assessed; sensitivity and specificity data not reported due to small number of cases
+"Rajalakshmi
+et al(16)",India,"EyeArt software
+(V.2.1.0)",Prospective,301 participants,"Two
+ophthalmologists",ICDRS,99.3% (96.1 to 99.9),68.8% (61.5 to 76.2),NS,"Moderate NPDR
+or worse and/or
+presence of DME",None
+Zhang et al(17),China,VolexCloud,Prospective,15805 participants,"Two specialist
+graders",ICDRS,83.3% (81.9 to 84.6),92.5% (92.1 to 92.9),NS,"Moderate NPDR
+or worse (DME
+assessed separately)","Prevalence data in
+Chinese population
+reported"
+Li et al(18),China,VolexCloud,Prospective,11476 participants ,"One certified retinal
+specialist",ICDRS,85.1% (83.4 to 86.6), 95.6% (94.6 to 96.6), 0.942 (0.920 to 0.964)," Moderate NPDR or
+worse (macular signs
+not specified)","389 images were
+ungradable using DLA
+but were gradable by
+humans"
+Lin et al(19),China,"Comprehensive
+AI Retinal
+Expert",Prospective,"18163 images in
+external validation
+dataset","Three
+ophthalmologists",NS,NS,NS,"‡1. 0.960 (0.953 to
+0.966)
+2. 0.999 (0.998 to 1.000)
+3. 0.918 (0.887 to 0.944)","Moderate NPDR or
+worse (macular signs
+not specified)","Performance of DLS in
+detecting 14 different
+retinal conditions
+reported"
+Ming et al(20),China,EyeWisdom,Prospective,199 participants,"Two
+ophthalmologists",ICDRS,84.6% (54.6 to 98.1),98.0% (94.3 to 99.6),0.913 (0.797 to 1.00),"More than mild
+NPDR (macular signs
+not specified)",None
+Pei et al(21),China,EyeWisdom,Prospective, 549 participants,"Two
+ophthalmologists",ICDRS,NS,NS,NS,NS,"Sensitivity, specificity
+and AUC provided for
+each level of DR"
+Hao et al(22),China,EyeWisdom,Prospective,3796 participants,"Two attending
+physicians",ICDRS,NS,NS,NS,NS,Reported sensitivity and specificity data for the presence of DR
+Bawankar et al(23),India,"Bosch DR
+algorithm",Prospective, 564 participants,The investigators,"American Academy
+guidelines",91.18%,96.90%,NS,"Figures refer to
+presence or absence
+of DR (macular signs
+not specified)","Bosch algorithm
+showed favorable
+performance for nonmydriatic photos"
+Hansen et al(24),Kenya,Iowa DR detection software,Retrospective,3460 participants, Moorfields Eye Hospital retinal image reading center,ICDRS,NS,NS,NS,NS,Reported figures for the detection of the presence of DR
+Dong et al(25),China,Retinal Artificial Intelligence Diagnosis System,Retrospective,110784 participants,Two ophthalmologists ,NS,NS,NS,0.981 (0.980 to 0.982),NS,The AI system detects 10 retinal disorders
+Yang et al(26),China,AIDRScreening V.1.0,Prospective, 962 participants, Two graders,Chinese Ophthalmic Society guidelines ,86.72% (83.39 to 90.05),96.06% (94.14 to 97.54),NS,Stage II or worse using the Chinese Ophthalmic Society guidelines,None
+Nunez do Rio et al(27),India,VISUHEALTH-AI DR (software V.1.8),Prospective,31608 participants,Two optometrists or ophthalmologists ,ICDRS,72.08% (70.68 to 73.46),85.65% (85.11 to 86.18),NS,Moderate NPDR or worse and/or presence of DME,Assessed AI system performance in non- mydriatic images
+Mathenge et al(28),Rwanda,Cybersight,Randomized controlled trial ,823 participants,NS,NS,NS,NS,NS,NS,"Proportion of persons referred after DR
+screening who attended
+follow-up reported"
+Li et al(29),China," DR DL Network
+(V.201710242)",Prospective,8012 participants,"Two graders in
+reading center",ICDRS,NS,NS,NS,"UK NSC guideline
+used to determine
+referral threshold
+(includes presence
+of DME)","AI took 19.2min to
+provide screening report
+after image capture vs
+1.3 days for manual
+graders"
